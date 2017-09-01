@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 //import Alert from "react-native-alert";
-import {Alert} from "pilipa-app-ui";
+import {Alert, SubmitButton} from "./lib";
 
 export default class App extends React.Component {
 
@@ -70,6 +70,13 @@ export default class App extends React.Component {
                   <Text>显示文本无按钮定义提示框</Text>
               </View>
           </TouchableOpacity>
+
+          <SubmitButton onPress={() => {console.log('clicked 提交按钮')}} isEnabled={true}
+                        text="提交按钮"
+          />
+          <SubmitButton onPress={() => {console.log('clicked 提交按钮')}} isEnabled={false}
+                        text="提交按钮禁用"
+          />
       </View>
     );
   }

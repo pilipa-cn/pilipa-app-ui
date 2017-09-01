@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "15.4.1",
     "react-native": "^0.40.0",
-    "pilipa-app-ui": "file:../",
+    "pilipa-app-ui": "file:./lib",
     "apsl-react-native-button": "^3.1.0",
     "react-native-alert": "github:pilipa-cn/react-native-alert#v1.0.1",
     "react-native-image-crop-picker": "github:pilipa-cn/react-native-image-crop-picker#v0.14.2",
