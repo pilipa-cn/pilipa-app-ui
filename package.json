@@ -1,0 +1,36 @@
+{
+  "name": "pilipa-app-ui",
+  "version": "1.0.0",
+  "description": "A common UI component library which matchs UI spec of Pilipa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.0",
+    "react-native-alert": "github:pilipa-cn/react-native-alert#v1.0.1",
+    "react-native-image-crop-picker": "github:pilipa-cn/react-native-image-crop-picker#v0.14.2",
+    "react-native-modal-datetime-picker": "github:pilipa-cn/react-native-modal-datetime-picker#v4.8.0-pilipa",
+    "react-native-navigation": "github:pilipa-cn/react-native-navigation#1.1.135",
+    "react-native-picker": "github:pilipa-cn/react-native-picker",
+    "react-native-scrollable-tab-view": "github:pilipa-cn/react-native-scrollable-tab-view#v0.7.4-pilipa-2"
+  },
+  "devDependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:pilipa-cn/pilipa-app-ui.git"
+  },
+  "keywords": [
+    "react-native",
+    "pilipa"
+  ],
+  "author": "pilipa-cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "github.com/pilipa-cn/pilipa-app-ui/issues"
+  },
+  "homepage": "https://github.com/pilipa-cn/pilipa-app-ui#readme"
+}
