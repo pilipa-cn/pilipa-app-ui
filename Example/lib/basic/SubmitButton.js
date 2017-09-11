@@ -19,56 +19,9 @@ export default class SubmitButton extends Component {
                 disabledStyle={styles.buttonViewDisabled}
                 isDisabled={!this.props.isEnabled}
                 onPress={this.props.onPress}
-                textStyle={styles.loginText}>
+                textStyle={styles.buttonText}>
                 {this.props.text}
             </Button>
         );
     }
 }
-
-/*
-const styles = StyleSheet.create({
-    buttonViewDisabled: {
-        backgroundColor: '#e6e6e6',
-        margin: 0,
-        borderRadius: 6,
-        justifyContent: 'center',
-        alignSelf: 'center',
-        height: px2dp(88),
-        width: px2dp(500),
-        marginTop: px2dp(45),
-        borderWidth: 0,
-    },
-
-    buttonViewEnabled: {
-        backgroundColor: '#ef0c35',
-        margin: 0,
-        borderRadius: 6,
-        justifyContent: 'center',
-        alignSelf: 'center',
-        height: px2dp(88),
-        width: px2dp(500),
-        marginTop: px2dp(45),
-        borderWidth: 0,
-    },
-
-    buttonEnableView: {
-        backgroundColor: '#e6e6e6',
-        margin: 0,
-        borderRadius: 6,
-        justifyContent: 'center',
-        alignSelf: 'center',
-        height: px2dp(88),
-        width: px2dp(500),
-        marginTop: px2dp(45)
-    },
-
-    loginText: {
-        fontSize: 15,
-        color: '#FFFFFF',
-        marginTop: 10,
-        marginBottom: 10,
-        textAlign: 'center'
-    },
-});
-*/

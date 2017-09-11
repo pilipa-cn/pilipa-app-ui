@@ -26,16 +26,6 @@ export default StyleSheet.create({
         borderWidth: 0,
     },
 
-    buttonEnableView: {
-        backgroundColor: '#e6e6e6',
-        margin: 0,
-        borderRadius: 6,
-        justifyContent: 'center',
-        alignSelf: 'center',
-        height: px2dp(88),
-        width: px2dp(500),
-        marginTop: px2dp(45)
-    },
 
     buttonText: {
         fontSize: 15,
