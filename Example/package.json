@@ -7,15 +7,20 @@
     "adb-reverse": "adb reverse tcp:8081 tcp:8081"
   },
   "dependencies": {
+    "apsl-react-native-button": "^3.1.0",
+    "babel-plugin-react-native-css-class": "^0.1.1",
+    "pilipa-app-ui": "file:./lib",
     "react": "15.4.1",
     "react-native": "^0.40.0",
-    "pilipa-app-ui": "file:./lib",
-    "apsl-react-native-button": "^3.1.0",
     "react-native-alert": "github:pilipa-cn/react-native-alert#v1.0.1",
     "react-native-image-crop-picker": "github:pilipa-cn/react-native-image-crop-picker#v0.14.2",
     "react-native-modal-datetime-picker": "github:pilipa-cn/react-native-modal-datetime-picker#v4.8.0-pilipa",
     "react-native-navigation": "github:pilipa-cn/react-native-navigation#1.1.135",
     "react-native-picker": "github:pilipa-cn/react-native-picker",
-    "react-native-scrollable-tab-view": "github:pilipa-cn/react-native-scrollable-tab-view#v0.7.4-pilipa-2"
+    "react-native-scrollable-tab-view": "github:pilipa-cn/react-native-scrollable-tab-view#v0.7.4-pilipa-2",
+    "react-native-theme": "^0.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
